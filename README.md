@@ -5,11 +5,10 @@ location, what I'm working on, and what's new.
 
 ## Endpoints
 
-- `GET /` — the full current status
+- `GET /` — every weekly update on record, most recent first
 - `GET /location` — current location
 - `GET /working-on` — what I'm currently working on
 - `GET /whats-new` — latest update
-- `GET /history` — every weekly update on record, most recent first
 
 ## Running locally
 

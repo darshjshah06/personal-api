@@ -26,7 +26,7 @@ def load_current() -> dict:
 
 @app.get("/")
 def root():
-    return load_current()
+    return load_history()
 
 
 @app.get("/location")
@@ -43,7 +43,3 @@ def working_on():
 def whats_new():
     return {"whats_new": load_current()["whats_new"]}
 
-
-@app.get("/history")
-def history():
-    return load_history()
